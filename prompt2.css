@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main1{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(34, 115 ,34);
+    margin: auto;
+    margin-top: 5%;
+}
+.main1>span{
+    font-size: 50px;
+    font-family:cursive;
+    padding-top: 90px;
+    padding-left: 100px;
+    
+}
+.itemimg{
+    margin: 5%;
+    height: 450px;
+    width: 400px;
+    background-color: rgb(34, 115, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.itembag{
+    height: 65px;
+    width: 340px;
+    background-color: rgb(212, 219, 225);
+    border: 1px solid black;
+    /* margin: auto; */
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.itembag>img{
+    height: 60px;
+    width: 60px;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.set{
+     position: absolute;
+     top: 2px;
+     left: 80px;
+}
+.set>p{ color: rgb(2, 55, 75);
+        font-weight: 400px;
+        font-family: Jersey_10;
+}
+.main2{
+    height: 65%;
+    width: 30%;
+    position: absolute;
+    right: 70px;
+    top: 130px;
+    background-color: rgb(236, 225, 225);
+}
+
+.main2>span{
+    font-size:30px; 
+    padding: 80px;
+    color: rgb(73, 112, 14);
+
+}
+
+
+.visa{
+    padding-top: 4%;
+}
+.visa>img{
+    height: 100px;
+    width: 200px;
+    margin-left: 3%;
+    border: 3px solid rgb(82, 78, 78);
+    box-shadow: 4px 4px 5px  rgb(76, 78, 79);
+}
+
+hr{
+    border: 1px solid gray;
+    margin-left: 19px;
+    margin-right: 20px;
+}
+
+/* .main3{
+    display: flex;
+    align-items: center;
+} */
+.box1{
+    width: 350px;
+    height: 40px;
+    border: 1px solid rgb(23, 23, 35);
+    margin: auto;
+    margin-top: 20px;  
+}
+
+.box1>p{
+    font-size: 10px;
+    color: gray;
+    opacity: -1px;
+}
+
+#CVV{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+
+#no{
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#no>p{
+    font-size: 10px;
+    color: gray;
+    opacity: -1px;
+}
+.button2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+}
+button{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    
+}
